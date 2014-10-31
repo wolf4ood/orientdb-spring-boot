@@ -1,13 +1,13 @@
 package org.wolfwood.example.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
 import org.wolfwood.example.model.domain.Todo;
 import org.wolfwood.example.repositories.TodoRepository;
 import org.wolfwood.example.services.TodoService;
-
-import java.util.List;
 
 @RestController
 @EnableAutoConfiguration

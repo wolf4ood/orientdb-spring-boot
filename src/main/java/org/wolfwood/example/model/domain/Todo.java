@@ -1,6 +1,5 @@
 package org.wolfwood.example.model.domain;
 
-import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 /**
@@ -9,7 +8,6 @@ import java.util.Date;
 public class Todo {
 
   private String id;
-  @NotNull
   private String description;
   private Date   createdAt;
 
